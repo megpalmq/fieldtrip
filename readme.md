@@ -39,3 +39,8 @@ I chose this artifact because of its blend of history, craftsmanship, and storyt
   - Web pages are structured using semantic HTML5.  
   - Timeline events are wrapped in divs with `.reveal` classes for scroll-triggered animations.  
   - JavaScript observes elements using the Intersection Observer API to apply the active/inactive states dynamically.
+
+
+### Link to view site: 
+
+fieldtrip-eta.vercel.app
