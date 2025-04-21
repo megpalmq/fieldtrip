@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bandolier Bag Interactive Exhibit</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div class="logo">Bandolier Bag Exhibit</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bag.html">Bag Artifact</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+        </ul>
+      </nav>
+      <h2 class="click">Click the blue dots to learn more!</h2>
+      <section id="artifact-image">
+
+        <img src="assets/images/bag.webp" alt="Bandolier Bag" id="bag-img" />
+        <div
+          class="hotspot"
+          style="top: 30%; left: 60%"
+          data-info="Floral patterns represent a deep connection to nature and the land. Each flower and vine reflects the importance of growth, medicine, and harmony with the earth."
+        ></div>
+        <div
+          class="hotspot"
+          style="top: 75%; left: 60%"
+          data-info="The fringe represents flowing water."
+        ></div>
+        <div
+          class="hotspot"
+          style="top: 70%; left: 70%"
+          data-info="The triangular shapes at the bottom fringe are believed to provide protection, mimicking arrowheads or mountains—symbols of endurance and direction."
+        ></div>
+      </section>
+      <div class="gen-info">
+        <h2>General Information</h2>
+        <p>
+          The Bandolier Bag is a traditional Native American artifact, often
+          made from leather and adorned with intricate beadwork. It was used to
+          carry items and is a symbol of cultural identity.
+        </p>
+        <p>
+          The bag is typically worn across the body and features a wide strap
+          for comfort. The designs often hold significant meaning, reflecting
+          the wearer's heritage and beliefs.</p>
+      </div>
+      <div class="images">
+        <div class="bag">
+          <img src="assets/images/bag1.jpeg" alt="Bandolier Bag 1" />
+          <div class="info"> 
+            Artist: Unrecorded Ho-Chunk artist
+            <br>
+            <br>
+            Culture: Ho-Chunk
+            <br>
+            <br>
+            Date: 1895-1915
+            <br>
+            <br>
+            Medium: wool cloth with loom woven glass seed beads, wool yarn, silk ribbon
+            <br>
+            <br></div>
+        </div>
+        <div class="bag">
+          <img src="assets/images/bag2.jpeg" alt="Bandolier Bag 2" />
+          <div class="info">
+            Artist: Unrecorded Potawatomi artist
+            <br>
+            <br>
+            Culture: Potawatomi
+            <br>
+            <br>
+            Date: 1880
+            <br>
+            <br>
+            Medium: wool and cotton cloth, loom woven glass beads on cotton thread, wool yarn, wool fox braid, printed cotton lining and pouch interior
+            <br>
+            <br></div>
+        </div>
+        <div class="bag">
+          <img src="assets/images/bag3.jpeg" alt="Bandolier Bag 3" />
+          <div class="info">
+            Artist: Unrecorded Ho-Chunk artist
+            <br>
+            <br>
+            Culture: Ho-Chunk
+            <br>
+            <br>
+            Date: 1895-1915
+            <br>
+            <br>
+            Medium: wool cloth with loom woven glass seed beads, wool yarn, silk ribbon
+            <br>
+            <br>    
+          </div>
+        </div>
+      </div>
+
+    <div id="modal" class="hidden">
+      <p id="modal-text"></p>
+      <button style="background-color: red; color: rgb(255, 255, 255); border-radius: 30px; " onclick="closeModal()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
